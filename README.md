@@ -31,6 +31,6 @@ After we move the Cookie Notice div up in the DOM to be the first element in the
 <img width="1512" alt="Screen Shot 2023-06-27 at 11 08 07" src="https://github.com/lebreRafael/poc-lcp-render-order/assets/13899924/10d73a64-580a-4c51-bb4a-39e12f23676d">
 
 ### Final Notes
-You may think this is not a real scenario because we have more than 10.000 links but if you look at thte html weigth (454kb) you are gonna see that it could be a real scenario. I have pages on my website that have twice the size of this HTML. Of course they will be compressed o most websites but even with compression I faced this LCP Render Order issue in the past.
+You may think this is not a real scenario because we have more than 10.000 links but if you look at thte html weigth (454kb) you are gonna see that it could be a real scenario. I have pages on my website that have twice the size of this HTML. Of course they will be compressed on most websites but even with compression I faced this LCP Render Order issue in the past.
 
 Keep in mind that this behaves diferent on other browsers. I think each of them decide when they have enough data from the HTML streaming to start painting.

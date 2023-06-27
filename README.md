@@ -8,7 +8,7 @@ This POC shows how the render order matters (at least on chrome) for LCP when yo
 * Open Devtools and go to Performance Tab
 * Set up throttling ***Fast 3g*** and ***4x slow CPU***
 * Click on the refresh icon on Performance Tab
-* Open `/public/cookie-notice.html` on your code editor
+* Open `public/cookie-notice.html` on your code editor
 * Move `<div id="cooki-notice">Cookie notice</div>` from last element in the body to first element in the body
 * Click on the refresh icon on Performance Tab again
 
